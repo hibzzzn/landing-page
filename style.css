@@ -1,0 +1,368 @@
+/* ===========================
+   Global
+=========================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Roboto, sans-serif;
+}
+
+body{
+    background:white;
+}
+
+
+/* ===========================
+   Header
+=========================== */
+
+header{
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    background:#1F2937;
+
+    padding:20px 150px;
+}
+
+
+.logo{
+
+    width:90px;
+}
+
+
+.links{
+
+    display:flex;
+    gap:30px;
+
+}
+
+
+.links a{
+
+    text-decoration:none;
+    color:#E5E7EB;
+    font-size:18px;
+
+}
+
+
+
+/* ===========================
+   First Section
+=========================== */
+
+.first-section{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    background:#1F2937;
+
+    padding:80px 150px;
+
+}
+
+
+
+/* Left */
+
+.text-container{
+
+    flex:1;
+
+    margin-right:70px;
+
+}
+
+
+.hero-text{
+
+    color:#F9FAF8;
+
+    font-size:48px;
+
+    font-weight:900;
+
+    margin-bottom:15px;
+
+}
+
+
+.secondary-text{
+
+    color:#E5E7EB;
+
+    font-size:18px;
+
+    line-height:1.5;
+
+    margin-bottom:20px;
+
+}
+
+
+.start-btn{
+
+    background:#3882F6;
+
+    color:white;
+
+    border:none;
+
+    padding:12px 35px;
+
+    font-size:18px;
+
+    font-weight:bold;
+
+    border-radius:8px;
+
+    cursor:pointer;
+
+}
+.start-btn:hover{
+
+    background:white;
+
+    color:#2367d1;
+}
+
+/* Right */
+
+.img-container{
+
+    flex:1;
+
+    display:flex;
+
+    justify-content:flex-end;
+
+}
+
+
+.img-container img{
+
+    width:500px;
+
+    height:300px;
+
+    object-fit:cover;
+
+    border-radius:0;
+
+}
+
+/* ===========================
+   Second Section
+=========================== */
+
+.second-section{
+
+    padding:70px 150px;
+
+    text-align:center;
+}
+
+.second-section h2{
+
+    font-size:36px;
+
+    color:#1F2937;
+
+    margin-bottom:60px;
+    font-weight:900;
+}
+
+/* Cards */
+
+.cards-container{
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:50px;
+
+    flex-wrap:wrap;
+}
+
+.card{
+
+    width:180px;
+
+    display:flex;
+
+    flex-direction:column;
+
+    align-items:center;
+
+    text-align:center;
+}
+
+.card img{
+
+    width:170px;
+
+    height:170px;
+
+    border:3px solid #3882F6;
+
+    border-radius:15px;
+
+    object-fit:contain;
+
+    padding:20px;
+
+    margin-bottom:15px;
+}
+
+.card p{
+
+    font-size:18px;
+
+    color:#555;
+
+    line-height:1.4;
+}
+/* ===========================
+   Third Section
+=========================== */
+
+.third-section{
+
+    background-color:#E5E7EB;
+
+    padding:100px 250px;
+}
+
+.quote-container{
+
+    max-width:900px;
+
+    margin:auto;
+}
+
+.quote{
+
+    font-size:36px;
+
+    font-style:italic;
+
+    font-weight:300;
+
+    color:#1F2937;
+
+    line-height:1.5;
+}
+
+.author{
+
+    margin-top:25px;
+
+    text-align:right;
+
+    font-size:24px;
+
+    font-weight:700;
+
+    color:#1F2937;
+}
+/* ===========================
+   Fourth Section
+=========================== */
+
+.fourth-section{
+
+    padding:100px 150px;
+
+    background:white;
+}
+
+.cta-container{
+
+    background:#3882F6;
+
+    border-radius:10px;
+
+    padding:50px 80px;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+}
+
+.cta-text h2{
+
+    color:white;
+
+    font-size:30px;
+
+    margin-bottom:10px;
+}
+
+.cta-text p{
+
+    color:#E5E7EB;
+
+    font-size:18px;
+}
+
+.contact-btn{
+
+    background:transparent;
+
+    color:white;
+
+    border:2px solid white;
+
+    padding:12px 40px;
+
+    border-radius:8px;
+
+    font-size:18px;
+
+    font-weight:bold;
+
+    cursor:pointer;
+
+    transition:0.3s;
+}
+
+.contact-btn:hover{
+
+    background:white;
+
+    color:#3882F6;
+}
+
+
+/* ===========================
+   Footer
+=========================== */
+
+footer{
+
+    background:#1F2937;
+
+    padding:35px;
+
+    text-align:center;
+}
+
+footer p{
+
+    color:white;
+
+font-size:16px;}
